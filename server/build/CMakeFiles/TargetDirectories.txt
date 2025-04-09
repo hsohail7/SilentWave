@@ -1,0 +1,3 @@
+C:/3313Finale/SilentWave/server/build/CMakeFiles/SilentWaveServer.dir
+C:/3313Finale/SilentWave/server/build/CMakeFiles/ALL_BUILD.dir
+C:/3313Finale/SilentWave/server/build/CMakeFiles/ZERO_CHECK.dir

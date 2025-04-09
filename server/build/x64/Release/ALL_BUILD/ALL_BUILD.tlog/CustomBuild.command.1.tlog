@@ -1,0 +1,10 @@
+^C:\3313FINALE\SILENTWAVE\SERVER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/3313Finale/SilentWave/server -BC:/3313Finale/SilentWave/server/build --check-stamp-file C:/3313Finale/SilentWave/server/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

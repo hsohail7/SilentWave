@@ -1,0 +1,10 @@
+^C:\3313FINALE\SILENTWAVE\SERVER\BUILD\CMAKEFILES\0E8EB3868AF19EC958A266F0681929BE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/3313Finale/SilentWave/server -BC:/3313Finale/SilentWave/server/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/3313Finale/SilentWave/server/build/SilentWaveAdvanced.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
